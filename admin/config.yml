@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: saborioo03/saborioo03.github.io   # <-- confirmar: usuario/nombre-del-repositorio exactos
+  repo: saborioo03/Astra-Nails            # confirmado: usuario/nombre-del-repositorio
   branch: main                             # <-- confirmar: el nombre de tu rama principal en GitHub
   base_url: https://TU-SITIO.netlify.app   # <-- reemplazar por la URL que te da Netlify (paso a paso más abajo)
   auth_endpoint: auth
