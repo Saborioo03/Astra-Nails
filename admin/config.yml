@@ -1,0 +1,72 @@
+backend:
+  name: github
+  repo: saborioo03/saborioo03.github.io   # <-- confirmar: usuario/nombre-del-repositorio exactos
+  branch: main                             # <-- confirmar: el nombre de tu rama principal en GitHub
+  base_url: https://TU-SITIO.netlify.app   # <-- reemplazar por la URL que te da Netlify (paso a paso más abajo)
+  auth_endpoint: auth
+
+media_folder: "images/products"
+public_folder: "/images/products"
+
+collections:
+  - name: "productos"
+    label: "Catálogo"
+    files:
+      - name: "catalogo"
+        label: "Diseños del catálogo"
+        file: "products.json"
+        fields:
+          - label: "Diseños"
+            name: "productos"
+            widget: "list"
+            label_singular: "Diseño"
+            summary: "{{fields.nombre}} — ₡{{fields.precio}}"
+            fields:
+              - { label: "Nombre del set", name: "nombre", widget: "string" }
+              - { label: "Precio (en colones, solo números)", name: "precio", widget: "number", value_type: "int" }
+              - label: "Categoría"
+                name: "categoria"
+                widget: "select"
+                options:
+                  - "Colores lisos"
+                  - "French"
+                  - "Flores y corazones"
+                  - "Estrellas y gráficos"
+                  - "Animal print"
+                  - "Efectos"
+                  - "3D y accesorios"
+              - label: "Colores (opcional)"
+                name: "colores"
+                widget: "select"
+                multiple: true
+                required: false
+                options:
+                  - "Negro"
+                  - "Blanco"
+                  - "Nude"
+                  - "Rosa"
+                  - "Rojo"
+                  - "Naranja"
+                  - "Amarillo"
+                  - "Verde"
+                  - "Azul"
+                  - "Morado"
+                  - "Café"
+                  - "Gris"
+                  - "Plateado"
+                  - "Dorado"
+              - { label: "Descripción corta", name: "descripcion", widget: "text", required: false }
+              - label: "Fotos"
+                name: "fotos"
+                widget: "list"
+                required: false
+                summary: "{{fields.foto}}"
+                field: { label: "Foto", name: "foto", widget: "image" }
+              - label: "Estado"
+                name: "estado"
+                widget: "select"
+                default: "disponible"
+                options:
+                  - { label: "Disponible", value: "disponible" }
+                  - { label: "Agotado", value: "agotado" }
+                  - { label: "Oculto (no se muestra en la página)", value: "oculto" }
