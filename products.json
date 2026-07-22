@@ -1,75 +1,17 @@
 {
   "productos": [
     {
-      "nombre": "Glazed Nude",
-      "precio": 8500,
-      "categoria": "Colores lisos",
+      "estado": "disponible",
+      "nombre": "Fortnite",
+      "precio": 20000000000000,
+      "categoria": "Flores y corazones",
       "colores": [
         "Nude"
       ],
-      "descripcion": "Set en tonos nude con acabado glaseado, elegante y versátil.",
+      "descripcion": "fortnite",
       "fotos": [
-        "/images/products/screenshot-2026-07-21-221154.png"
-      ],
-      "estado": "disponible"
-    },
-    {
-      "nombre": "French Cromada",
-      "precio": 9800,
-      "categoria": "French",
-      "colores": [
-        "Plateado",
-        "Blanco"
-      ],
-      "descripcion": "French clásico con punta en efecto cromado.",
-      "fotos": [],
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Aura Vino",
-      "precio": 10200,
-      "categoria": "Efectos",
-      "colores": [
-        "Rojo"
-      ],
-      "descripcion": "Efecto aura difuminado en tono vino profundo.",
-      "fotos": [],
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Estrellas Cadete",
-      "precio": 9200,
-      "categoria": "Estrellas y gráficos",
-      "colores": [
-        "Azul",
-        "Plateado"
-      ],
-      "descripcion": "Azul cadete con detalles de estrellas plateadas.",
-      "fotos": [],
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Leopardo Café",
-      "precio": 9500,
-      "categoria": "Animal print",
-      "colores": [
-        "Café",
-        "Negro"
-      ],
-      "descripcion": "Animal print leopardo en tonos café y negro.",
-      "fotos": [],
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Perlas & Charms",
-      "precio": 11500,
-      "categoria": "3D y accesorios",
-      "colores": [
-        "Dorado"
-      ],
-      "descripcion": "Detalles 3D con perlas y charms dorados aplicados a mano.",
-      "fotos": [],
-      "estado": "disponible"
+        "/images/products/5116231164476722379.jpg"
+      ]
     }
   ]
 }
