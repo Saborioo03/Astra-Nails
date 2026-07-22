@@ -1,9 +1,10 @@
 backend:
   name: github
-  repo: saborioo03/Astra-Nails            # confirmado: usuario/nombre-del-repositorio
-  branch: main                             # <-- confirmar: el nombre de tu rama principal en GitHub
-  base_url: https://stunning-pastelito-38238f.netlify.app   # <-- reemplazar por la URL que te da Netlify (paso a paso más abajo)
-  auth_endpoint: auth
+  repo: saborioo03/Astra-Nails
+  branch: main
+  base_url: https://sveltia-cms-auth.saboriosara8.workers.dev
+
+site_url: https://saborioo03.github.io/Astra-Nails/
 
 media_folder: "images/products"
 public_folder: "/images/products"
