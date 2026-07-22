@@ -7,7 +7,7 @@ backend:
 site_url: https://saborioo03.github.io/Astra-Nails/
 
 media_folder: "images/products"
-public_folder: "/images/products"
+public_folder: "images/products"
 
 collections:
   - name: "productos"
